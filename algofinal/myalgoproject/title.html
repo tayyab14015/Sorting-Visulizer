@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Document</title>
+<link rel="stylesheet" type="text/css" href="cssfiles/cssfile.css">
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">sorting Visualizer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sorts
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="bubblesort.html">Bubble Sort</a></li>
+                  <li><a class="dropdown-item" href="bucket.html">Bucket Sort</a></li>
+                  <li><a class="dropdown-item" href="count.html"> Count Sort</a></li>
+                  <li><a class="dropdown-item" href="heap.html">Heap Sort</a></li>
+                  <li><a class="dropdown-item" href="insertion.html">Insertion Sort</a></li>
+                  <li><a class="dropdown-item" href="merge.html">Merge Sort</a></li>
+                  <li><a class="dropdown-item" href="quick.html">Quick Sort</a></li>
+                  <li><a class="dropdown-item" href="7.4.5.html">Efficient Quick</a></li>
+                  <li><a class="dropdown-item" href="radix.html">Radix Sort</a></li>
+                 
+                </ul> 
+              </li>
+              
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators" style="padding: 25px;">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-img4  active" style="background: url('images/img4.jpg ');background-size: cover;">
+        <div class="carousel-caption d-none d-md-block">
+        <h1 class="display-1"> Sorting Algorithms</h1>
+        <p class="para">
+          Sorting refers to arranging data in a particular format. Sorting algorithm specifies the way to arrange data in a particular order. Most common orders are in numerical or lexicographical order.
+
+          The importance of sorting lies in the fact that data searching can be optimized to a very high level, if data is stored in a sorted manner. Sorting is also used to represent data in more readable formats.     </p>   
+        <div class="bt">
+       <a href="bubblesort.html">  
+        <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue">bubblesort Sort</button>
+        <a href="bucket.html">  
+          <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue">Bucket Sort</button>
+          <a href="count.html">  
+            <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue">Count Sort</button>
+            <a href="heap.html">  
+              <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue">Heap Sort</button>
+              <a href="insertion.html">  
+                <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue">Insertion Sort</button>
+                <a href="merge.html">  
+                  <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue">Merge Sort</button>
+                  <a href="quick.html">  
+                    <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue; margin-top: 10px;">Quick Sort</button>
+                    <a href="7.4.5.html">  
+                      <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue;  margin-top: 10px;">Efficient Quick</button>
+                     
+                    <a href="radix.html">  
+                      <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue;margin-top: 10px;">Radix Sort</button>
+                                                                
+       </a>
+      </div> 
+      
+        </div>
+            <!-- <a class="btn btn-outline-primary" href="#">get started</a>   -->
+        </div>
+        <div class="carousel-item carousel-img3" style="background: url('images/img3.jpg'); background-size: cover;">
+          <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-2"> Time complexity</h1>
+          <p class="para2">
+            Time complexity is defined as the amount of time taken by an algorithm to run, as a function of the length of the input. It measures the time taken to execute each statement of code in an algorithm. It is not going to examine the total execution time of an algorithm. Rather, it is going to give information about the variation (increase or decrease) in execution time when the number of operations (increase or decrease) in an algorithm. Yes, as the definition says, the amount of time taken is a function of the length of input only.
+          </p>   
+          <div class="bt">
+            <a href="bubblesort.html">  
+             <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue; ">bubblesort Sort</button>
+             <a href="bucket.html">  
+               <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue;">Bucket Sort</button>
+               <a href="count.html">  
+                 <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue;">Count Sort</button>
+                 <a href="heap.html">  
+                   <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue; ">Heap Sort</button>
+                   <a href="insertion.html">  
+                     <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue;">Insertion Sort</button>
+                     <a href="merge.html">  
+                       <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue;">Merge Sort</button>
+                       <a href="quick.html">  
+                         <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue; margin-top: 10px;">Quick Sort</button>
+                         <a href="7.4.5.html">  
+                          <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue;  margin-top: 10px;">Efficient Quick</button>
+                       
+                         <a href="radix.html">  
+                           <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue; margin-top: 10px;">Radix Sort</button>
+                                                                     
+            </a>
+           </div> 
+            
+        
+          </div>
+              <!-- <a class="btn btn-outline-primary" href="#">get started</a>   -->
+          </div>
+          <div class="carousel-item carousel-img2" style="background: url('images/img2.jpg ');background-size: cover;">
+            <div class="carousel-caption d-none d-md-block">
+            <h1 class="display-3"> Sorting Algorithms</h1>
+            <p class="para3">
+              The space Complexity of an algorithm is the total space taken by the algorithm with respect to the input size. Space complexity includes both Auxiliary space and space used by input.It’s necessary to mention that space complexity depends on a variety of things such as the programming language, the compiler, or even the machine running the algorithm.            </p> 
+              <div class="bt">
+                <div class="bt">
+                  <a href="bubblesort.html">  
+                   <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue">bubblesort Sort</button>
+                   <a href="bucket.html">  
+                     <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue">Bucket Sort</button>
+                     <a href="count.html">  
+                       <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue">Count Sort</button>
+                       <a href="heap.html">  
+                         <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue">Heap Sort</button>
+                         <a href="insertion.html">  
+                           <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue">Insertion Sort</button>
+                           <a href="merge.html">  
+                             <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue">Merge Sort</button>
+                             <a href="quick.html">  
+                               <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue; margin-top: 10px;">Quick Sort</button>
+                               <a href="7.4.5.html">  
+                                <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue;  margin-top: 10px;">Efficient Quick</button>
+                                 
+                               <a href="radix.html">  
+                                 <button type="button" class="btn btn-outline-primary btn-lg" style="color: aliceblue; margin-top: 10px;">Radix Sort</button>
+                                                                           
+                  </a>
+                 </div> 
+                  
+            </div>
+                <!-- <a class="btn btn-outline-primary" href="#">get started</a>   -->
+            </div>
+            </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</body>
+</html>

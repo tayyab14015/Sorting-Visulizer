@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="cssfiles/heap.css" />
+</head>
+
+<body>
+	<br />
+	<p class="header">Heap Sort</p>
+    <p>
+        <h3 style="text-align: center;">
+            Timer: 
+        </h3>
+        </p>
+        <p id="timer" style="text-align: center;">
+            0sec
+        </p>
+	<div id="array"></div>
+	<div id="count"></div>
+	<section id="ele"></section>
+	<div style="margin: auto; width: fit-content;">
+
+		<!-- "Generate New Array" button -->
+	<button class="btn1"
+			onclick="generate()" id="Button1" >
+		Generate New Array</button>
+		
+	<!-- "Insertion Sort" button -->
+	<button class="btn2"
+			onclick="HeapSort(20),disable()"
+			id="Button2" >
+		Heap Sort</button>
+		</div>	
+	<script src="jsfiles/heap.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,22 @@
+body {
+  
+    background-color: rgb(255, 235, 211);
+    font-family: Verdana, sans-serif;
+  }
+  canvas {
+    display: block;
+    width: 600px;
+    height: 364px;
+  }
+  .head{
+    background-color: #6f459e;
+    margin-top: 20px;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: center;
+    font-size: 30px;
+    
+    color: white;
+    border-radius:19px;
+    font-weight: bolder;
+  }

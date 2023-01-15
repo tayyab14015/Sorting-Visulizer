@@ -1,0 +1,128 @@
+body{
+  background-color: rgb(255, 235, 211);
+  font-family: Verdana, sans-serif;
+}
+  .header {
+    margin-top: 20px;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: center;
+    font-size: 30px;
+    background-color: #6f459e;
+    color: white;
+    border-radius:19px;
+    font-weight: bolder;
+  }
+  #array {
+    width: 600px;
+    height: 270px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .block {
+    width: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 183, 255);
+    transition: 0.2s all ease;
+	display: block;
+  }
+  .block_id {
+    position: absolute;
+    top: -24px;
+    width: 100%;
+    text-align: center;
+  }
+  .block_id2 {
+    position: absolute;
+    top: -24px;
+    width: 100%;
+    text-align: center;
+  }
+  .block_id3 {
+    position: absolute;
+    top: -24px;
+    width: 100%;
+    text-align: center;
+  }
+  .bucket {
+    width: 256px;
+    height: 260px;
+    position: relative;
+  }
+  .bucket2 {
+    margin: auto;
+    width: 148px;
+    height: 260px;
+  }
+  .firstbucket {
+    width: 28px;
+    background-color:  rgb(0, 183, 255);
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+   
+  }
+  .secondbucket {
+    width: 28px;
+    background-color:  rgb(0, 183, 255);
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+  }
+  .thirdbucket {
+    width: 28px;
+    background-color:  rgb(0, 183, 255);
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+  }
+  .fourthbucket {
+    width: 28px;
+    background-color:  rgb(0, 183, 255);
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+  }
+  .btn1
+  {
+  padding: 12px;
+  font-weight: bolder; 
+  background-color: #6f459e; 
+  border-radius: 10px; 
+  color: white; 
+  font-size: 16px; 
+  border: white; 
+  margin-top: 70px;
+  margin-right: 1vw;
+  
+  }
+  .btn2
+  {
+  padding: 12px; 
+  font-weight: bolder; 
+  background-color: #6f459e; 
+  border-radius: 10px; 
+  color: white; 
+  font-size: 16px; 
+  border: white
+  
+  }
+  h3{
+    text-align: center;
+   
+  }
+  #ele{
+    text-align: center;
+    height: 35px;
+  }
+  label{
+   
+    text-align: center;
+    font-size:15px;
+    background-color: #6f459e;
+    color: white;
+    border-radius:21px;
+    font-weight: bolder;
+  }
